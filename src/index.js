@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FullName from './compents/Profile/FullName';
+import Adress from './compents/Profile/Adress';
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <FullName/>
+    <Adress/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
